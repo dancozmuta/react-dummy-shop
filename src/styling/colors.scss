@@ -1,4 +1,11 @@
-$color-primary: #d0033f;
-$color-secondary: #008B8B;
-$background-primary: #fff;
-$background-secondary: #f7f7f7;
+$color-primary: rgba(208, 3, 63);
+$color-primary-hover: rgba(208, 3, 63, 0.8);
+$color-secondary: rgba(0, 139, 139);
+$color-warning: rgba(255, 0, 0);
+$color-success: rgb(125, 218, 125);
+$color-danger: rgba(255, 0, 0);
+$color-secondary-hover: rgba(0, 139, 139, 0.8);
+$background-primary: rgb(255, 255, 255);
+$background-secondary: rgb(247, 247, 247);
+$background-inverted: transparent;
+$text-inverted: rgb(255, 255, 255)
