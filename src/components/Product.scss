@@ -1,0 +1,59 @@
+@import "../styling/colors.scss";
+@import "../styling/vars.scss";
+
+.product--container {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0 1px 12px;
+  position: relative;
+  vertical-align: top;
+  width: calc(24% - 8px);
+  border: 1px solid $border-color;
+
+  p {
+    text-align: center;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: $color-text;
+    text-align: center;
+
+    &:before {
+      content: "";
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+  }
+
+  img {
+    height: 200px;
+    margin: 0;
+  }
+
+  .product--info {
+    padding: $space / 2;
+    text-align: left;
+  }
+
+  h2 {
+      font-size: $font-size--medium;
+  }
+
+  .price {
+    font-size: $font-size--medium;
+    font-weight: $font-weight--bold;
+    color: $color-text;
+  }
+
+  .btn {
+    margin-top: auto;
+  }
+}

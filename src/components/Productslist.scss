@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    box-align: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}

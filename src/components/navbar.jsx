@@ -5,7 +5,7 @@ class Navbar extends Component {
     state = {  } 
     render() { 
         return (
-            <nav>Navbar</nav>
+            <nav>Shop dummy</nav>
         );
     }
 }
