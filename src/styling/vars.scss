@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$font--main: 'Open Sans', 'sans-serif';
+
+$font-weight--regular: 400;
+$font-weight--bold: 700;
+
+$font-size--small: 1.3rem;
+$font-size--medium: 1.6rem;
+$font-size--large: 2rem;
+
+/* Spacing */
+$space: .8rem;
+$space--small: .4rem;
+$space--medium: .8rem;
+$space--large: 1.2rem;
+
+/*Border radius */
+$border-radius: $space;
+$border-radius--circle: 50%;

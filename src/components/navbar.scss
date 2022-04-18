@@ -1,0 +1,10 @@
+@import '../index.scss';
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: $space;
+    width: 100%;
+    height: $space * 4;
+    background-color: $background-secondary;
+}
