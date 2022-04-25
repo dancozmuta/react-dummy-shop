@@ -1,12 +1,12 @@
 import './App.scss';
-import Productslist from './components/Productslist';
-import Navbar from './components/Navbar';
+import Products from './Pages/Products/Products';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Productslist />
+      <Products />
     </div>
   );
 }

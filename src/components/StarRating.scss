@@ -1,0 +1,26 @@
+@import "../styling/vars.scss";
+
+.ratingbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 16px;
+  margin: 0 0 0.4rem 0;
+
+  .stars-outer {
+    position: relative;
+    margin-right: 1rem;
+
+    .stars-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  span {
+    font-size: .9rem;
+    font-weight: $font-weight--bold;
+    line-height: .9rem;
+  }
+}
