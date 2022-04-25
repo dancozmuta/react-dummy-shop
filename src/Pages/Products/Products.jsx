@@ -44,7 +44,8 @@ class Productlist extends Component {
                 price={product['productlist-item'].price ? product['productlist-item'].price.price.text : null}
                 currency={product['productlist-item'].price ? product['productlist-item'].price.price.currency : product['productlist-item']["price--crossed"].price.currency}
                 priceCrossed={product['productlist-item']["price--crossed"] ? product['productlist-item']["price--crossed"].price.text : null}
-                priceReduced={product['productlist-item']["price--reduced"] ? product['productlist-item']["price--reduced"].price.text : null}  
+                priceReduced={product['productlist-item']["price--reduced"] ? product['productlist-item']["price--reduced"].price.text : null} 
+                ratingValue={product['productlist-item'].rating.average} 
                 ratingCount={product['productlist-item'].rating.count}        
               ></Product>
             )) : null }

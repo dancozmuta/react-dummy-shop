@@ -44,6 +44,7 @@ class Product extends Component {
           <StarRating
                 className="rating-container"
                 ratingCount={this.props.ratingCount}
+                ratingValue={this.props.ratingValue}
                 rating={this.props.rating}
               />
                 <div className="productlist-item-pricebox">
